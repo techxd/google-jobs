@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+export PATH="/usr/local/bin:/usr/bin:/bin:$PATH"
+export HOME="/home/techxd"
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$DIR"
 
