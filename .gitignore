@@ -1,0 +1,17 @@
+# Vercel & Next.js cache
+.vercel/
+.next/
+out/
+build/
+dist/
+
+# Python cache & logs
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# OS & Environment
+.env*
+.DS_Store
+Thumbs.db
